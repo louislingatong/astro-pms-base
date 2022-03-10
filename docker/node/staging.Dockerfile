@@ -1,8 +1,6 @@
 # base image
 FROM node:alpine
 
-RUN apk add g++ gcc make python
-
 # Set working directory
 WORKDIR /var/www/frontend
 
